@@ -1,0 +1,18 @@
+@keyframes animationExample {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+.animateThis {
+	animation: animationExample 2s;
+	display: flex;
+}
+
+.rgbafallback {
+	background: #000000;
+	background: rgba(0,0,0,0.5);
+}
